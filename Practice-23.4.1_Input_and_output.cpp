@@ -24,6 +24,16 @@
 
 using namespace std;
 
+void DAY_str(int number_day) {
+    if (number_day == MONDAY) cout << CONVERT(1);
+    if (number_day == TUESDAY) cout << CONVERT(2);
+    if (number_day == WEDNESDAY) cout << CONVERT(3);
+    if (number_day == THURSDAY) cout << CONVERT(4);
+    if (number_day == FRIDAY) cout << CONVERT(5);
+    if (number_day == SATURDAY) cout << CONVERT(6);
+    if (number_day == SUNDAY) cout << CONVERT(7);
+}
+
 int main() {
     int day;
     do {
@@ -32,11 +42,5 @@ int main() {
         if (!CORRECT_DAY(day)) std::cout << ERROR << "\n";
     } while (!CORRECT_DAY(day));
 
-    if (day == MONDAY) cout << CONVERT(1);
-    if (day == TUESDAY) cout << CONVERT(2);
-    if (day == WEDNESDAY) cout << CONVERT(3);
-    if (day == THURSDAY) cout << CONVERT(4);
-    if (day == FRIDAY) cout << CONVERT(5);
-    if (day == SATURDAY) cout << CONVERT(6);
-    if (day == SUNDAY) cout << CONVERT(7);
+    CONVERT(str)(day);
 }
