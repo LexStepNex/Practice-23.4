@@ -1,0 +1,7 @@
+# ninja log v6
+5	614	7440143860185636	CMakeFiles/Practice-23.4.3.dir/Practice-23.4.3.cpp.obj	68e249c4f264ff51
+4	405	7440466269708096	build.ninja	1122f7c712732d3b
+650	790	7440453604477772	Practice-23.4.1.exe	8c08add4cdc9cf68
+638	806	7437305433509956	Practice-23.4.2.exe	64e51a16042adc31
+614	769	7440143866279094	Practice-23.4.3.exe	ddeb9f2236c87af1
+11	649	7440453598094889	CMakeFiles/Practice-23.4.1.dir/Practice-23.4.1_Input_and_output.cpp.obj	11aaab99031bdcd2

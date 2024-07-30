@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Practice_23_4",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Practice-23.4.1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Practice-23.4.1-Debug-78bc360b755b0c982892.json",
+					"name" : "Practice-23.4.1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Practice-23.4.2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Practice-23.4.2-Debug-7c67eddc904ee5a3c992.json",
+					"name" : "Practice-23.4.2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Practice-23.4.3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Practice-23.4.3-Debug-2afb7be376753f51f96c.json",
+					"name" : "Practice-23.4.3",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/develop/skillbox/PracticeClion/Practice-23.4/cmake-build-debug",
+		"source" : "C:/develop/skillbox/PracticeClion/Practice-23.4"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
